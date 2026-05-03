@@ -8,7 +8,7 @@ export default function ErrorExamplesFallbackUI({error,reset}:{
 }){
 
      useEffect(()=>{
-          // sent a report to your error logging services
+          // sent a report to your error logging servicesw
      },[error])
 
      return(
