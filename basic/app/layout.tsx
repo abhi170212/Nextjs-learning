@@ -33,6 +33,7 @@ export default function RootLayout({
           <Link href={`/`}>Home</Link>
           <Link href={`/products`}>Products</Link>
           <Link href={`/dashboard`}>Dashboard</Link>
+          <Link href={`/client-navigate`}>Client-Navigate</Link>
         </nav>
       </header>
       <body className="min-h-full flex flex-col">{children}</body>
