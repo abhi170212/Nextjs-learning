@@ -3,7 +3,7 @@
 import { useRouter,usePathname, useSearchParams } from "next/navigation"
 
 //---------------------------------------------------------------------
-export default function clientNavigate(){
+export default function ClientNavigate(){
      // HOOKS
      const router =useRouter()
      const pathName = usePathname()
